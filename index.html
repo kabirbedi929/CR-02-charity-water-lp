@@ -1,47 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>charity: water | Clean Water for Everyone</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
+  <!-- Header: Navigation and logo -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="img/cw_logo.png" alt="charity: water logo" class="logo" />
+      </a>
+
+      <nav class="nav">
+        <a href="#story">Story</a>
+        <a href="#impact">Impact</a>
+        <a href="#help">How You Help</a>
+        <a class="nav-cta" href="#donate">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
     <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="pill">College students can change lives.</p>
+          <h1>Turn your everyday energy into <span class="highlight">clean water</span>.</h1>
+          <p class="subhead">
+            703 million people still lack access to clean water. A small action from you can help fund
+            sustainable water projects — and you'll see exactly where your impact goes.
+          </p>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+          <div class="cta-row" id="donate">
+            <a class="btn btn-primary" href="#">Donate $10</a>
+            <a class="btn btn-secondary" href="#story">Learn the story</a>
+          </div>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+          <p class="microcopy">
+            100% of your donation funds clean water projects. Private donors cover operating costs.
+          </p>
         </div>
+
+        <div class="hero-media">
+          <img src="img/hero.jpg" alt="Students supporting clean water initiatives" />
+        </div>
+      </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <!-- Story / Problem Section -->
+    <section class="section" id="story">
+      <div class="container two-col">
+        <div>
+          <h2>The problem is real — and solvable.</h2>
+          <p>
+            Clean water changes everything: health, education, and opportunity. When communities have safe water
+            nearby, kids can go to school and families can build stable futures.
+          </p>
+          <p>
+            charity: water funds local partners who build sustainable projects like wells, piped systems, and
+            rainwater catchments — designed to last.
+          </p>
+          <a class="text-link" href="#impact">See the impact →</a>
+        </div>
+
+        <div class="image-stack">
+          <img src="img/water1.jpg" alt="Water project in a community" />
+          <img src="img/water2.jpg" alt="Smiling child with clean water access" />
+        </div>
+      </div>
     </section>
+
+    <!-- Impact Stats Section -->
+    <section class="section section-alt" id="impact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Where your support goes</h2>
+          <p>Transparent impact you can trust — built for people who care about results.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>100% to projects</h3>
+            <p>Public donations fund water projects directly. Operating costs are covered separately.</p>
+          </article>
+
+          <article class="card">
+            <h3>Proof & reporting</h3>
+            <p>Get updates and project details that show the real outcomes on the ground.</p>
+          </article>
+
+          <article class="card">
+            <h3>Long-term access</h3>
+            <p>Projects are designed with local partners for sustainability and community ownership.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How You Help Section -->
+    <section class="section" id="help">
+      <div class="container">
+        <div class="section-head">
+          <h2>How you help (in 3 steps)</h2>
+          <p>Simple, fast, meaningful. Perfect for a student budget.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">1</span>
+            <div>
+              <h3>Pick a small amount</h3>
+              <p>$10–$25 is enough to be part of real, measurable change.</p>
+            </div>
+          </li>
+
+          <li class="step">
+            <span class="step-num">2</span>
+            <div>
+              <h3>Fund a water project</h3>
+              <p>Your donation supports sustainable systems like wells and pipelines.</p>
+            </div>
+          </li>
+
+          <li class="step">
+            <span class="step-num">3</span>
+            <div>
+              <h3>Share and multiply impact</h3>
+              <p>Post it, tell friends, and turn one action into a campus movement.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="center-cta">
+          <a class="btn btn-primary btn-lg" href="#">Start with $10 →</a>
+          <p class="microcopy">Make it a challenge: donate and tag 3 friends.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> charity: water-inspired student landing page (class project)</p>
+      <a class="text-link" href="#donate">Donate</a>
+    </div>
+  </footer>
 </body>
 </html>
